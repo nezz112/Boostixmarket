@@ -21,3 +21,4 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #00f0ff; 
 }
+/* Force clean update for Tailwind */
