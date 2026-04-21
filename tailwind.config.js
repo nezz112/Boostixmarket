@@ -1,0 +1,20 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        dark: "#0b0f19",
+        card: "#151b2b",
+        neon: {
+          blue: "#00f0ff",
+          purple: "#b026ff"
+        }
+      },
+    },
+  },
+  plugins: [],
+}
